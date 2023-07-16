@@ -1,15 +1,14 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
- *  main - A program that print last digit
+ *  main - A program that print charactere
  *   Return: 0 (Success)
- */
-int main() {
-  char c;
-  
-for (c = 'a'; letter <= 'z'; c++) 
-    putchar(c);
+*/
+int main(void)
+{
+	char c;
+
+for (c = 'a'; c <= 'z'; c++)
+putchar(c);
 putchar('\n');
-return 0;
+return (0);
 }
